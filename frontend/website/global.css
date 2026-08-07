@@ -1,0 +1,25 @@
+body{
+    background-image: url("./assets/images/fundoglobal.png");
+
+}
+
+.container{
+    width: 100%;
+    max-width: 1440px;
+    text-align: center;
+    margin: 0 auto;
+    height: auto;
+    
+}
+.container > main{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.container > main > .movies-container{
+    display: flex;
+    flex-direction: row;
+
+}
