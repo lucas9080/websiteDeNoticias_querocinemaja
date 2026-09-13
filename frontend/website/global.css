@@ -1,29 +1,64 @@
 body{
     background-image: url("./assets/images/fundoglobal.png");
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
 
 }
 
 .container{
     width: 100%;
-    max-width: 1440px;
-    text-align: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
     margin: 0 auto;
     height: auto;
     
 }
 .container > main{
-    width: 90%;
     margin: 0 auto;
     text-align: center;
+     margin: 20px;
+    padding: 50px;
 
 }
 
 .container > main > .movies-container{
     display: flex;
-    flex-direction: row;
+    flex-direction: block;
 
 }
 
 .title-website{
     color: aliceblue;
 }
+
+
+.content {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+section> .img-banner {
+    padding: 20px;
+    max-width: 10px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+section> .img-banner > img{
+     border-radius: 10px;
+    width: 700px;
+}
+.movies-container {
+    display: flex;
+    flex-direction: column;
+}
+
